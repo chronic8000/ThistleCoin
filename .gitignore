@@ -1,0 +1,34 @@
+src/*.exe
+src/thistlecoin
+src/thistlecoind
+src/test_thistlecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.thistlecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+thistlecoin-qt
+Thistlecoin-Qt.app
+
+# Unit-tests
+Makefile.test
+thistlecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

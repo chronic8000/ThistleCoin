@@ -1,0 +1,9 @@
+Building Thistlecoin
+
+See doc/readme-qt.rst for instructions on building Thistlecoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Thistlecoin.
+
+See doc/build-*.txt for instructions on building thistlecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Thistlecoin.
